@@ -1,11 +1,10 @@
 ## coding: UTF-8#
-import pickle,gzip
+from xgboost import XGBClassifier
 
-# load model
-with gzip.open('app/model/xgb_iris.pgz','r') as f :
-    xgbmodel = pickle.load(f)
+
+xgbmodel_iris = XGBClassifier().load_model('app/model/xgb_iris.json')
     
 def predict(input):
-    pred = xgbmodel.predict(input)[0]
+    pred = xgbmodel_iris.predict(input)[0]
     print(pred)
     return pred
