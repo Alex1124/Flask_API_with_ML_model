@@ -18,10 +18,10 @@ def postinput():
     # get front data
     insertValues = request.get_json()   #sepal.length  sepal.width  petal.length  petal.width
    
-    x1 = insertValues['SepalLengthCm']
-    x2 =insertValues['SepalWidthCm']
-    x3 =insertValues['PetalLengthCm']
-    x4 =insertValues['PetalWidthCm']
+    x1 = insertValues['sepalLengthCm']
+    x2 = insertValues['sepalWidthCm']
+    x3 = insertValues['petalLengthCm']
+    x4 = insertValues['petalWidthCm']
     
     inputdata = np.array([[x1,x2,x3,x4]])
     result = model.predict(inputdata)
