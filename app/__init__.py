@@ -23,7 +23,7 @@ def postinput():
     x3 = insertValues['petalLengthCm']
     x4 = insertValues['petalWidthCm']
     
-    inputdata = np.array([[x1,x2,x3,x4]])
+    inputdata = np.array([[x1,x2,x3,x4]], dtype=object)
     result = model.predict(inputdata)
     
     return jsonify({'return':str(result)})
