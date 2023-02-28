@@ -5,3 +5,17 @@
 https://py-flask-api-ml-xgb-iris.onrender.com/
 
 
+類別:
+0:setosa
+1:versicolor
+2:virginica
+
+
+test:
+
+ {
+ "sepalLengthCm":5.2,
+  "sepalWidthCm":2.7,
+  "petalLengthCm":3.9,
+  "petalWidthCm":1.4
+  }
