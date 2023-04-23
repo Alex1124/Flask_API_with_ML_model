@@ -21,3 +21,10 @@ route:/predict
   "petalLengthCm":3.9,
   "petalWidthCm":1.4
   }
+
+![image](https://user-images.githubusercontent.com/26739923/233819536-ffa96a04-2d48-4efe-acfe-901569d63c0c.png)
+
+
+![image](https://user-images.githubusercontent.com/26739923/233819474-2e306e12-3e8a-4580-b157-209b776575dc.png)
+
+![image](https://user-images.githubusercontent.com/26739923/233819514-fcd6c8bd-6de9-4ff8-aaf5-3e2a3d81bc10.png)
