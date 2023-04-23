@@ -12,7 +12,9 @@ https://py-flask-api-ml-xgb-iris.onrender.com/
 
 
 test:
+
 route:/predict
+
  {
  "sepalLengthCm":5.2,
   "sepalWidthCm":2.7,
