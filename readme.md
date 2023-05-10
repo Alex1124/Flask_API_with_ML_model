@@ -21,7 +21,9 @@ https://py-flask-api-ml-xgb-iris.onrender.com/
 類別:
 
 0:setosa
+
 1:versicolor
+
 2:virginica
 
 
@@ -36,6 +38,11 @@ route:/predict
   "petalLengthCm":3.9,
   "petalWidthCm":1.4
   }
+
+
+{ "sepalLengthCm":5.8, "sepalWidthCm":2.7, "petalLengthCm":4.1, "petalWidthCm":1.0 }
+
+
 
 ![image](https://user-images.githubusercontent.com/26739923/233819536-ffa96a04-2d48-4efe-acfe-901569d63c0c.png)
 
