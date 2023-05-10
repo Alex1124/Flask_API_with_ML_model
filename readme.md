@@ -32,6 +32,13 @@ test:
 
 route:/predict
 
+
+0
+
+{ "sepalLengthCm":5.1	, "sepalWidthCm":3.5	, "petalLengthCm":1.4	, "petalWidthCm":0.2}
+
+1
+
  {
  "sepalLengthCm":5.2,
   "sepalWidthCm":2.7,
@@ -40,7 +47,9 @@ route:/predict
   }
 
 
-{ "sepalLengthCm":5.8, "sepalWidthCm":2.7, "petalLengthCm":4.1, "petalWidthCm":1.0 }
+2
+
+{ "sepalLengthCm":6.3, "sepalWidthCm":2.5, "petalLengthCm":5.0, "petalWidthCm":1.9}
 
 
 
